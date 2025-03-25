@@ -1,0 +1,10 @@
+from tkinter import*
+top=Tk()
+top.geometry("500 * 450")
+name=Label(top,text="Username").place(x=40,y=70)
+email=Label(top,text="Email").place(x=40,y=100)
+password=Label(top,text="Password").place(x=40,y=140)
+e1=Entry(top).place(x=80,y=50)
+e2=Entry(top).place(x=80,y=90)
+e3=Entry(top).place(x=100,y=130)
+top.mainloop()

@@ -1,0 +1,9 @@
+thisdic={
+    "brand":"ford",
+    "model":"mustang",
+    "year":1964
+}
+get=thisdic.values()
+print(get)
+thisdic["year"]=2024
+print(get)
